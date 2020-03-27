@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Our Playlists</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+
+
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>LISTEN ALONG WITH US</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">PLAYLISTS UPDATED WEEKLY</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">Submit a song</button>
+    </div>
+  </div>
+</header>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a> 
+  <!--  *******href in here   ******* -->
+	<a href="..\index.html"class="w3-bar-item w3-button w3-theme-l1 w3-hover-pale-green">Squadra Di Verde</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Submit</a>
+  
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:200">
+  <h3>Italiano</h3><br>
+
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/au/playlist/nuovo/pl.u-EdAVVlqTMDAKZb"></iframe>
+
+  </div>
+</div>
+
+
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:200">
+  <h3> High Rotation </h3>
+  <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/au/playlist/hula-girl-got-flow/pl.u-EdAVVkeuMDAKZb"></iframe>
+  
+ 
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:200">
+  <h3>Radio</h3><br>
+  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p><a href="https://www.abc.net.au/doublej/">double j</a></p>
+    <p><a href="https://www.abc.net.au/triplej/">triple j</a></p>
+
+
+  </div>
+</div>
+</div>
+
+<script>
+    function AddRecord(){
+      alert('Add it!');
+    }
+</script>
+
+
+</body>
