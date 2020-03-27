@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif;}
 .w3-sidebar {
@@ -25,7 +28,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif;}
 <div class="w3-top">
   <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a> 
-    <a href="..\index.html"class="w3-bar-item w3-button w3-theme-l1 w3-hover-pale-green">Squadra Di Verde</a>
+  <!--  *******href in here   ******* -->
+	<a href="..\index.html"class="w3-bar-item w3-button w3-theme-l1 w3-hover-pale-green">Squadra Di Verde</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Snacks</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Meals</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sweet Things</a>
@@ -52,31 +56,108 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif;}
 
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+
+
 <div class="w3-main" style="margin-left:250px">
 
-  <div class="w3-row w3-padding-64">
+
+<hr id="Snacks"> 
+
+  <div class="w3-row w3-padding-32">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Snacks</h1>
-      <p>These are my favourite sweet and savoury bites.</p>
+  
     </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
+   
   </div>
+
+
+<!-- Circular Containers -->
+<div class="w3-container w3-padding-2 w3-center" id="team">
+
+
+<div class="w3-row">
+
+
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Easy Cinammon Scrolls</h3>
+  <p>Use frozen puff pastry to make sweet scrolls</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Another recipe</h3>
+  <p>This is how you cook something else</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Make this too</h3>
+  <p>It is really yummy</p>
+</div>
+
+</div>
+</div>
+
+
+</hr>
+
+
+
+<hr id="Meals"> 
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Meals</h1>
+	  
+	 
       <p>What fills our bellies? We cook lots of different cusines and love trying new flavours. 
 	  <br>Growing up in Australia with Mediterranean and Eastern European roots, we also dabble in Chinese, Thai, Vietnamese and Indian flavours 
 	 <br> <b> Working hard to reduce waste, shop smart ans re-use ingredients.</b></p>
     </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
+ 
   </div>
+
+
+<div class="w3-container w3-padding-2 w3-center" id="team">
+
+
+<div class="w3-row">
+
+<div class="w3-quarter">
+  <img src="..\Pictures\pasta3.jpg" alt="Pasta" style="width:45%" class="w3-circle"> 
+  <h3>Perfect Pasta Sauce</h3>
+  <p>Only basic ingredients needed to make this versatile sauce</p>
+</div>
+
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Another recipe</h3>
+  <p>This is how you cook something else</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Make this too</h3>
+  <p>It is really yummy</p>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+</hr>
+
+<hr id="Sweet Things"> 
+
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
@@ -84,16 +165,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif;}
       <p>When it's time to let your hair down, let your tastebuds and tunmy delight in these sweet treats 
 	  <br> <3 </br> </p>
     </div>
-    <div class="w3-third w3-container">
-      <h1 class="w3-border w3-padding-large w3-padding-16 w3-center" width="400" height="250"> <br <img src="Pictures\frontdoor.jpg"> </h1>
-	  
-	  
-	  
-
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-	  
-    </div>
+  
   </div>
+
+</hr>
 
   <!-- Pagination 
   <div class="w3-center w3-padding-32">
